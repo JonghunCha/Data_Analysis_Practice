@@ -1,13 +1,13 @@
 import pandas
 
 #read_csv()를 이용하여 csv파일을 읽어 DataFrame으로 저장
-iphone_dataframe1 = pandas.read_csv("./iphone.csv")
+iphone_dataframe1 = pandas.read_csv("data/iphone.csv")
 print(iphone_dataframe1)
 print(type(iphone_dataframe1))
 print("\n")
 
 #제품명을 DataFrame의 index로 사용하기
-iphone_dataframe2 = pandas.read_csv("./iphone.csv", index_col=0)
+iphone_dataframe2 = pandas.read_csv("data/iphone.csv", index_col=0)
 print(iphone_dataframe2)
 
 """

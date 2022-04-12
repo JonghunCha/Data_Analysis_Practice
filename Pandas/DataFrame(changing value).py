@@ -1,6 +1,6 @@
 import pandas
 
-iphone_dataframe = pandas.read_csv("./iphone.csv", index_col=0)
+iphone_dataframe = pandas.read_csv("data/iphone.csv", index_col=0)
 print(iphone_dataframe)
 print("\n")
 
@@ -35,7 +35,7 @@ print(iphone_dataframe)
 print("\n")
 
 #조건으로 row선택 후 수정
-iphone_dataframe = pandas.read_csv("./iphone.csv", index_col=0)
+iphone_dataframe = pandas.read_csv("data/iphone.csv", index_col=0)
 condition = iphone_dataframe["디스플레이"] > 5
 iphone_dataframe.loc[condition] = "C"
 print(iphone_dataframe)

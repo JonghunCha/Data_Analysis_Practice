@@ -1,6 +1,6 @@
 import pandas
 
-liverpool_dataframe = pandas.read_csv("./liverpool.csv", index_col=0)
+liverpool_dataframe = pandas.read_csv("data/liverpool.csv", index_col=0)
 print(liverpool_dataframe)
 print("\n")
 

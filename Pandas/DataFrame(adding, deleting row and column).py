@@ -1,6 +1,6 @@
 import pandas
 
-iphone_dataframe = pandas.read_csv("./iphone.csv", index_col=0)
+iphone_dataframe = pandas.read_csv("data/iphone.csv", index_col=0)
 print(iphone_dataframe)
 print("\n")
 

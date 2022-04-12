@@ -1,6 +1,6 @@
 import pandas
 
-laptops_dataframe = pandas.read_csv("./laptops.csv")
+laptops_dataframe = pandas.read_csv("data/laptops.csv")
 print(laptops_dataframe)
 print("\n")
 
