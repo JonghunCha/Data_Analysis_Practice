@@ -9,7 +9,6 @@ import matplotlib.pyplot
 df = pandas.read_csv("data/body.csv", index_col=0)
 print(df)
 print("\n")
-print(seaborn.__version__)
 
 #키에 대해 KDE
 seaborn.kdeplot(x=df["Height"])
