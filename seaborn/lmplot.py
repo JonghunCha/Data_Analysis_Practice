@@ -8,4 +8,4 @@ print("\n")
 
 #scatterplot 위에 regression line그리기
 seaborn.lmplot(data=df, x="Height", y="Weight")
-matplotlib.pyplot.show() 
+matplotlib.pyplot.show()
