@@ -8,4 +8,4 @@ LEFT는 왼쪽으로부터 지정한 길이 만큼을 반환하고, RIGHT는 오
 */
 SELECT user_id, CONCAT(UPPER(LEFT(name, 1)), LOWER(RIGHT(name, length(name) - 1))) AS name
 FROM Users
-ORDER BY user_id ASC
+ORDER BY user_id ASC;
