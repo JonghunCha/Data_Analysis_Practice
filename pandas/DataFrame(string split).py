@@ -1,3 +1,6 @@
+"""
+만약 특정 문자로 split하고 싶다면 pat=","와 같이 지정해주면 된다(지정하지 않으면 default로 공백)
+"""
 import pandas
 
 pandas.set_option("display.max_rows", None)
