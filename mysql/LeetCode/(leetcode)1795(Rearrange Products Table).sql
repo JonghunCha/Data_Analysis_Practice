@@ -1,0 +1,15 @@
+/*
+문제 링크 : https://leetcode.com/problems/rearrange-products-table/
+각 store별로 원하는 값을 뽑은 뒤 UNION으로 합쳐주었다.
+*/
+SELECT product_id, "store1" AS store, store1 AS price
+FROM Products
+WHERE store1 IS NOT NULL
+UNION
+SELECT product_id, "store2" AS store, store2 AS price
+FROM Products
+WHERE store2 IS NOT NULL
+UNION
+SELECT product_id, "store3" AS store, store3 AS price
+FROM Products
+WHERE store3 IS NOT NULL;
